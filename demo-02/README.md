@@ -5,7 +5,8 @@
 | Name | Description |
 |------|---------|
 | <a name="rules_AWSManagedRulesCommonRuleSet"></a> [AWSManagedRulesCommonRuleSet](#rules\_AWSManagedRulesCommonRuleSet) | General rules, including those listed in OWASP, CVE, etc. |
-
+| <a name="rules_AWSRateBasedRuleDomesticDOS"></a> [AWSRateBasedRuleDomesticDOS](#rules\_AWSRateBasedRuleDomesticDOS) | prevent DOS from domestic |
+| <a name="rules_AWSRateBasedRuleGlobalDOS"></a> [AWSRateBasedRuleGlobalDOS](#rules\_AWSRateBasedRuleGlobalDOS) | prevent DOS from global |
 
 
 ### Initialize the directory
