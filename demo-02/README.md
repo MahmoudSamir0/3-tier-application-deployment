@@ -28,7 +28,7 @@ terraform init
 terraform apply 
 ```
 # congratulations your app is ready 
-## now now open appp url (www.app.com) 
+## now now open app url (www.app.com) 
 # Notes:
 Be careful of Rout53 domain = 12$ for 12 month for domain
  
