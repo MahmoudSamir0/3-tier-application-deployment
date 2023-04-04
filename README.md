@@ -23,3 +23,34 @@ independent of the other tiers
 ## the three-tier architecture design
 
 ![architecture_design](https://github.com/MahmoudSamir0/3-tier-application-deployment/blob/master/demo-02/0%20EO6KqgSu4vA1I2rb.png)
+
+## application
+### presentation tier (webserver) — this is where the user interacts with the website
+### application tier (app server) — this is where we have our business logics.
+
+In other words, the `presentation tier` forwards requests from the user to the `app server`, that in turn runs queries on the `rds` instance to fetch the lesson recordings. Our database will be a relational database with a `MySQL` engine just like how YouTube stores videos.
+
+##  simple app that returns “Hello World”.
+### Dockerfile
+```
+# // Dockerfile
+
+# Select node version and set working directory
+FROM node:17-alpine
+RUN mkdir -p /usr/src/app
+WORKDIR /usr/src/app
+
+# Install app dependencies
+COPY package.json /usr/src/app
+
+RUN npm install
+
+# Bundle app source
+COPY . /usr/src/app
+
+# Expose publc port and run npm command
+EXPOSE 3000
+CMD ["npm", "start"]
+
+```
+
