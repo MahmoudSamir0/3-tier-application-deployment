@@ -20,6 +20,7 @@ independent of the other tiers
 - [terraform-0.13-upgrade](https://www.terraform.io/upgrade-guides/0-13.html)
 
 
+
 You can verify that terraform is  installed in your local ,machine
 this by running `terraform version`
 
