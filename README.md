@@ -15,7 +15,7 @@ independent of the other tiers
 | Name | Version |
 |------|---------|
 | <a name="requirement_terraform"></a> [terraform](#requirement\_terraform) | >= 1.1.4 |
-| <a name="requirement_aws"></a> [aws](#requirement\_docker) | >= 23.0.2 |
+| <a name="requirement_docker"></a> [aws](#requirement\_docker) | >= 23.0.2 |
 
 1. Terraform and Docker are [installed](#software-dependencies) on the machine where Terraform is executed.
 ### Software Dependencies
