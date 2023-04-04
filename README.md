@@ -12,6 +12,10 @@ independent of the other tiers
 
 4.`Increased security` — each tier can have its own security group, allowing for custom permissions depending on the needs of that tier
 ## Requirements
+| Name | Version |
+|------|---------|
+| <a name="requirement_terraform"></a> [terraform](#requirement\_terraform) | >= 1.1.4 |
+| <a name="requirement_aws"></a> [aws](#requirement\_docker) | >= 23.0.2 |
 
 1. Terraform and Docker are [installed](#software-dependencies) on the machine where Terraform is executed.
 ### Software Dependencies
