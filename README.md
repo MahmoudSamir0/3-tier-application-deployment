@@ -18,6 +18,17 @@ independent of the other tiers
 #### Terraform and Plugins
 - [Terraform](https://www.terraform.io/downloads.html) 0.13+
 - [terraform-0.13-upgrade](https://www.terraform.io/upgrade-guides/0-13.html)
+
+
+You can verify that terraform is  installed in your local ,machine
+this by running `terraform version`
+
+
+```shell script
+terraform version
+```
+
+
 #### Docker
 - [docker](https://docs.docker.com/engine/install/)
 ## the three-tier architecture design
