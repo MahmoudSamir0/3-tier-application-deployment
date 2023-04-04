@@ -21,4 +21,5 @@ independent of the other tiers
 #### Docker
 - [docker](https://docs.docker.com/engine/install/)
 ## the three-tier architecture design
+
 ![architecture_design](https://github.com/MahmoudSamir0/3-tier-application-deployment/blob/master/demo-02/0%20EO6KqgSu4vA1I2rb.png)
