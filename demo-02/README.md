@@ -4,7 +4,7 @@
 #### rules
 | Name | Description |
 |------|---------|
-| <a name="rules_AWSManagedRulesCommonRuleSet"></a> [aws](#rules\_AWSManagedRulesCommonRuleSet) | General rules, including those listed in OWASP, CVE, etc. |
+| <a name="rules_AWSManagedRulesCommonRuleSet"></a> [AWSManagedRulesCommonRuleSet](#rules\_AWSManagedRulesCommonRuleSet) | General rules, including those listed in OWASP, CVE, etc. |
 
 
 
