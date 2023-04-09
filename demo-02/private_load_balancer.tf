@@ -32,6 +32,6 @@ module "private_lb" {
     listener_port = "80"
     listener_protocol = "HTTP"
     listener_type = "forward"
-    lb_subnet-1 = module.network.private_subnet_ip_az1
-    lb_subnet-2 = module.network.private_subnet_ip_az2
+    # lb_subnet-1 = module.network.private_subnet_ip_az1
+    # lb_subnet-2 = module.network.private_subnet_ip_az2
 }

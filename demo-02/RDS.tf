@@ -10,5 +10,4 @@ module "RDS_DATABASE" {
   instance_class = "db.t2.micro"
   db_engine =  "mysql"
   security_group_RDS = module.security.RDS_security_group_id
-  identifier_primary = "primarydatabase"
 }

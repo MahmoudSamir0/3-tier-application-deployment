@@ -76,13 +76,8 @@ resource "aws_lb" "load_balancer" {
   internal           = var.lb_internal 
   load_balancer_type = var.lb_type 
   security_groups    = [var.lb_security_group ]
-  # subnets            = [ var.lb_subnet ]
-  subnet_mapping {
-    subnet_id = var.lb_subnet-1
-  }
-    subnet_mapping {
-    subnet_id = var.lb_subnet-2
-  }
+   subnets            = var.lb_subnet
+
   tags = {
     Name = var.lb_name 
   }

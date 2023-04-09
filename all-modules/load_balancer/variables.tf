@@ -59,10 +59,10 @@ variable "lb_subnet" {
   type = list(string)
 }
 
-variable "lb_subnet-1" { 
-  }
-  variable "lb_subnet-2" { 
-  }
+# variable "lb_subnet-1" { 
+#   }
+#   variable "lb_subnet-2" { 
+#   }
 # load balancer listener variables
 # variable "listener_lb_arn" {
 # }
