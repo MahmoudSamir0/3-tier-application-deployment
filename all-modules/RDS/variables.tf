@@ -37,6 +37,3 @@ variable "db_engine" {
 }
 variable "security_group_RDS" {
 }
-variable "identifier_primary" {
-  
-}
