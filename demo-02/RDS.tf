@@ -1,6 +1,6 @@
 module "RDS_DATABASE" {
   source = "../all-modules/RDS"
-  primary_subnet-id = module.network.RDS_private_subnet_ip_az1
+  RDS_subnet-id = [ module.network.RDS_private_subnet_ip_az1 ,module.network.RDS_private_subnet_ip_az2 ]
   subnet_group_name_primary ="primary_subnet"
   rds_db_admin = "admin"
   rds_db_password = "password"

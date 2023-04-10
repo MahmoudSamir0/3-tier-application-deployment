@@ -1,5 +1,5 @@
 # rds variables
-variable "primary_subnet-id" {
+variable "RDS_subnet-id" {
   
 }
 variable "subnet_group_name_primary" {

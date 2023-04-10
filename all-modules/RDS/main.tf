@@ -2,7 +2,7 @@
 
 resource "aws_db_subnet_group" "subnet_group_primary" {
   name       = var.subnet_group_name_primary
-  subnet_ids = [var.primary_subnet-id]
+  subnet_ids = var.RDS_subnet-id
 
   tags = {
     Name = "My primary  DB subnet group"
