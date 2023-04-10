@@ -64,7 +64,7 @@ resource "aws_lb_target_group" "target_group" {
 
 resource "aws_lb_target_group_attachment" "target_group_attachment" {
   target_group_arn = aws_lb_target_group.target_group.arn
-  target_id        = aws_autoscaling_group.autoscale.id
+  target_id        = aws_lb.load_balancer.id
   port             = var.attach_target_port
     depends_on = [
     aws_lb_target_group.target_group
