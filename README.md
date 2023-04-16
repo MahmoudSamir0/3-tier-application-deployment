@@ -14,7 +14,7 @@ independent of the other tiers
 ## Requirements
 | Name | Version |
 |------|---------|
-| <a name="requirement_terraform"></a> [terraform](#requirement\_terraform) | >= 1.1.4 |
+| <a name="requirement_terraform"></a> [terraform](https://www.terraform.io/downloads.html) | >= 1.1.4 |
 | <a name="requirement_docker"></a> [docker](#requirement\_docker) | >= 23.0.2 |
 ### Software Dependencies
 #### Terraform and Plugins
